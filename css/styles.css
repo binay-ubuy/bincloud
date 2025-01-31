@@ -1,7 +1,7 @@
 :root {
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
-  --color-accent: #ff3400;
+  --color-accent: #A82300;
   --color-headings: #1b0760;
   --color-body: #918ca4;
   --color-body-darker: #5c5577;
@@ -33,7 +33,7 @@ body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   line-height: 1.5;
-  color: var(--color-body);
+  color: #59566C;
 }
 
 h1,
@@ -123,7 +123,7 @@ a {
 }
 
 .badge--secondary {
-  background: var(--color-secondary);
+  background: #005F70;
   color: #fff;
 }
 
@@ -329,12 +329,12 @@ a {
 }
 
 .card--primary .card__header {
-  background: var(--color-primary);
+  background: #0053BD;
   color: #fff;
 }
 
 .card--secondary .card__header {
-  background: var(--color-secondary);
+  background: #005F70;
   color: #fff;
 }
 
@@ -343,7 +343,8 @@ a {
 }
 
 .card--secondary .badge--secondary {
-  background: #02cdf1;
+  background: #005F70;
+  color: white;
 }
 
 /* Plans */
@@ -440,6 +441,7 @@ a {
 .media__image {
   margin-top: 1rem;
 }
+
 /* Quotes */
 .quote {
   font-size: 3rem;
@@ -465,7 +467,7 @@ a {
 
 .quote__organization {
   color: var(--color-headings);
-  opacity: 0.4;
+  opacity: 0.8;
   font-size: 1.5rem;
   font-style: normal;
 }
@@ -521,7 +523,7 @@ a {
   margin: 0 3rem;
 }
 
-.testimonial__image > .icon-container {
+.testimonial__image>.icon-container {
   position: absolute;
   top: 3rem;
   right: -32px;
@@ -546,7 +548,7 @@ a {
 }
 
 .callout--primary {
-  background: var(--color-primary);
+  background: #0052B8;
   color: #fff;
 }
 
@@ -623,6 +625,10 @@ a {
   margin-bottom: 4rem;
 }
 
+.deploy-website-text-color {
+  color: #9793A9 !important;
+}
+
 .block__heading {
   margin-top: 0;
 }
@@ -677,12 +683,12 @@ a {
   border-bottom: none;
 }
 
-.nav__item > a {
+.nav__item>a {
   color: #d2d0db;
   transition: color 0.3s;
 }
 
-.nav__item > a:hover {
+.nav__item>a:hover {
   color: #fff;
 }
 
@@ -701,6 +707,10 @@ a {
 .nav__brand {
   transform: translateY(5px);
   width: 150px;
+}
+
+.starting-at-9-p {
+  color: #59566C !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -809,7 +819,7 @@ a {
     justify-self: end;
   }
 
-  .block-showcase__image > img {
+  .block-showcase__image>img {
     width: auto;
     max-width: 700px;
   }
@@ -865,6 +875,7 @@ a {
   .footer {
     font-size: 1.5rem;
   }
+
   .footer__sections {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
