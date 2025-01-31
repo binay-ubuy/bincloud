@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="this is my website called bincode">
   <title>Bincloud</title>
+  <link rel="preload" href="images/banner.png" as="image">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
@@ -15,7 +17,8 @@
 <body>
   <header>
     <nav class="nav collapsible">
-      <a class="nav__brand" href="/"><img src="images/cloud-computing.svg" height="65px" alt="" /></a>
+      <a class="nav__brand" href="/" aria-label="go to the home page..."><img src="images/cloud-computing.svg"
+          height="65px" alt="" /></a>
       <svg class="icon icon--white nav__toggler">
         <use href="images/sprite.svg#menu"></use>
       </svg>
@@ -41,7 +44,7 @@
       <picture data-aos="zoom-in">
         <source type="image/webp" srcset="images/banner.webp 1x, images/banner@2x.webp 2x" />
         <source type="image/png" srcset="images/banner.png 1x, images/banner@2x.png 2x" />
-        <img class="hero__image" src="images/banner.png" alt="" />
+        <img class="hero__image" src="images/banner.png" alt="hero image" />
       </picture>
     </div>
   </section>
