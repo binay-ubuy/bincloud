@@ -236,7 +236,7 @@ a {
 
 .btn--secondary {
   background: var(--color-secondary);
-  color: #fff;
+  color: black;
 }
 
 .btn--secondary:hover {
@@ -827,12 +827,11 @@ a {
 
 /* Footer */
 .footer {
-  background: #232323;
   padding-top: 10rem;
 }
 
 .footer a {
-  color: #777;
+  color: #969696;
   transition: color 0.3s;
 }
 
@@ -867,8 +866,7 @@ a {
 
 .footer__copyright {
   font-size: 2.1rem;
-  color: #fff;
-  opacity: 0.3;
+  color: #969696;
 }
 
 @media screen and (min-width: 768px) {
